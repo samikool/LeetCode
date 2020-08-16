@@ -2,7 +2,6 @@
 #include <cstring>
 #include <string>
 
-
 using std::cout;
 using std::string;
 using std::max;
@@ -25,7 +24,7 @@ int lengthOfLongestSubstring(string s){
 }
 
 int main(){
-    string s = "abcabcbb";
+    string s = "dabcabcbbd";
 
     cout << lengthOfLongestSubstring(s);
 
